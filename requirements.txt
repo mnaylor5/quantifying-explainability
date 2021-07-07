@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+nltk
+pytorch
+transformers
+scikit-learn
+tqdm
+gensim
+interpret
