@@ -1,5 +1,5 @@
 # Supplemental Material for IMLH 2021 Submission
-This is a temporary location for hosting additional material during the double-blind review process of IMLH 2021. 
+This is the location for code and supplemental material for the IMLH 2021 paper on Quantifying Explainability (link coming soon).
 
 ## Code 
 A standalone script for our document perturbation method is provided in [`input_perturbation.py`](./input_perturbation.py) - it can perform token replacement using either an embedding matrix (e.g., for a HuggingFace Transformer model like our BigBird classifier) or a Gensim word2vec-style object containing word vectors. These techniques are used in the Jupyter notebook titled [`metric-implementation-with-perturbation-anonymized.ipynb`](./metric-implementation-with-perturbation-anonymized.ipynb), along with some EDA done during the development process. This notebook is where we implement a generalized local Lipschitz and calculate on a subset of documents, in addition to the same process for infidelity (via the Captum library).
